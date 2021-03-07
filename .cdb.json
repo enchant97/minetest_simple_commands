@@ -3,7 +3,7 @@
     "title": "Simple Commands",
     "name": "simple_commands",
     "tags": [
-        "World Maintenance and Tools"
+        "world_tools", "player_effects"
     ],
     "license": "GPLv3",
     "media_license": "GPLv3",
