@@ -11,6 +11,27 @@ create a GitHub issue and create a pull
 request with the addition linking to the issue
 if you can implement it.
 
+## Chat Commands
+### Time
+| Name     | Privs   | Desc                 |
+|:---------|:--------|:---------------------|
+| day      | settime | set time to day      |
+| midday   | settime | set time to midday   |
+| night    | settime | set time to night    |
+| midnight | settime | set time to midnight |
+### Player
+| Name    | Privs        | Desc                                |
+|:--------|:-------------|:------------------------------------|
+| exjump  | enhancements | Extended jump height                |
+| lowgrav | enhancements | Low gravity                         |
+| speed   | enhancements | Speed increase                      |
+| air     | enhancements | Give the player air                 |
+| rephand | enhancements | Repair the item in the players hand |
+| hp      | enhancements | Give the player health (hp)         |
+| pos     |              | Current player posistion            |
+
+---
+
 ## License
 Copyright (C) 2021  Leo Spratt
 
