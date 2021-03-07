@@ -1,0 +1,14 @@
+{
+    "type": "MOD",
+    "title": "Simple Commands",
+    "name": "simple_commands",
+    "tags": [
+        "World Maintenance and Tools"
+    ],
+    "license": "GPLv3",
+    "media_license": "GPLv3",
+    "short_description": "Adds simple chat commands",
+    "repo": "https://github.com/enchant97/minetest_simple_commands.git",
+    "website": "https://github.com/enchant97/minetest_simple_commands",
+    "issue_tracker": "https://github.com/enchant97/minetest_simple_commands/issues"
+}

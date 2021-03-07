@@ -1,4 +1,8 @@
 # Simple_Commands
+![ContentDB](https://content.minetest.net/packages/enchant97/simple_commands/shields/downloads/)
+![GitHub license](https://img.shields.io/github/license/enchant97/minetest_simple_commands)
+![GitHub issues](https://img.shields.io/github/issues/enchant97/minetest_simple_commands)
+
 A [minetest](https://www.minetest.net/) mod for adding simple
 commands that are missing within the game.
 
