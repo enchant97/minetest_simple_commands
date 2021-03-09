@@ -20,15 +20,16 @@ if you can implement it.
 | night    | settime | set time to night    |
 | midnight | settime | set time to midnight |
 ### Player
-| Name    | Privs        | Desc                                |
-|:--------|:-------------|:------------------------------------|
-| exjump  | enhancements | Extended jump height                |
-| lowgrav | enhancements | Low gravity                         |
-| speed   | enhancements | Speed increase                      |
-| air     | enhancements | Give the player air                 |
-| rephand | enhancements | Repair the item in the players hand |
-| hp      | enhancements | Give the player health (hp)         |
-| pos     |              | Current player posistion            |
+| Name     | Privs        | Desc                                |
+|:---------|:-------------|:------------------------------------|
+| exjump   | enhancements | Extended jump height                |
+| lowgrav  | enhancements | Low gravity                         |
+| speed    | enhancements | Speed increase                      |
+| immortal | enhancements | Infinite health                     |
+| air      | enhancements | Give the player air                 |
+| rephand  | enhancements | Repair the item in the players hand |
+| hp       | enhancements | Give the player health (hp)         |
+| pos      |              | Current player posistion            |
 
 ---
 

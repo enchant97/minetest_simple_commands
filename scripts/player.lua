@@ -60,6 +60,25 @@ minetest.register_chatcommand("speed", {
     end,
 })
 
+minetest.register_chatcommand("immortal", {
+    description = "Infinite health",
+    params = "<on | off>",
+    privs = {
+        enhancements = true,
+    },
+    func = function(name, state)
+        local player = minetest.get_player_by_name(name)
+        if (state == "on" or state == "")
+        then
+            player:set_armor_groups({immortal = 100})
+            return true, "Enabled infinite health"
+        else
+            player:set_armor_groups({immortal = 0})
+            return true, "Disabled infinite health"
+        end
+    end,
+})
+
 minetest.register_chatcommand("air", {
     description = "Give the player air",
     privs = {
