@@ -13,7 +13,7 @@ minetest.register_chatcommand("exjump", {
         local player = minetest.get_player_by_name(name)
         if (state == "on" or state == "")
         then
-            player:set_physics_override({jump = 2})
+            player:set_physics_override({jump = EX_JUMP_VAL})
             return true, "Enabled extended jump height"
         else
             player:set_physics_override({jump = 1})
@@ -32,7 +32,7 @@ minetest.register_chatcommand("lowgrav", {
         local player = minetest.get_player_by_name(name)
         if (state == "on" or state == "")
         then
-            player:set_physics_override({gravity = 0.3})
+            player:set_physics_override({gravity = LOW_GRAV_VAL})
             return true, "Enabled low gravity"
         else
             player:set_physics_override({gravity = 1})
@@ -51,7 +51,7 @@ minetest.register_chatcommand("speed", {
         local player = minetest.get_player_by_name(name)
         if (state == "on" or state == "")
         then
-            player:set_physics_override({speed = 1.8})
+            player:set_physics_override({speed = SPEED_VAL})
             return true, "Enabled speed"
         else
             player:set_physics_override({speed = 1})
