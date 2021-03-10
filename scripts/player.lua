@@ -129,3 +129,32 @@ minetest.register_chatcommand("pos", {
         return true, pos
     end,
 })
+
+-- Mineclone2 commands
+
+if minetest.get_modpath("mcl_hunger") ~= nil
+then
+    minetest.register_chatcommand("feed", {
+        description = "Fill the players hunger (mineclone2)",
+        privs = {
+            enhancements = true,
+        },
+        func = function(name)
+            local player = minetest.get_player_by_name(name)
+            mcl_hunger.set_hunger(player, 20)
+            return true, "Refilled hunger"
+        end,
+    })
+
+    minetest.register_chatcommand("antidote", {
+        description = "Stops player being poisoned (mineclone2)",
+        privs = {
+            enhancements = true,
+        },
+        func = function(name)
+            local player = minetest.get_player_by_name(name)
+            mcl_hunger.stop_poison(player)
+            return true, "Administered antidote"
+        end,
+    })
+end

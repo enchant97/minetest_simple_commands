@@ -1,4 +1,4 @@
-# Simple_Commands
+# Simple Commands
 ![ContentDB](https://content.minetest.net/packages/enchant97/simple_commands/shields/downloads/)
 ![GitHub license](https://img.shields.io/github/license/enchant97/minetest_simple_commands)
 ![GitHub issues](https://img.shields.io/github/issues/enchant97/minetest_simple_commands)
@@ -12,24 +12,30 @@ request with the addition linking to the issue
 if you can implement it.
 
 ## Chat Commands
+
 ### Time
+
 | Name     | Privs   | Desc                 |
 |:---------|:--------|:---------------------|
 | day      | settime | set time to day      |
 | midday   | settime | set time to midday   |
 | night    | settime | set time to night    |
 | midnight | settime | set time to midnight |
+
 ### Player
-| Name     | Privs        | Desc                                |
-|:---------|:-------------|:------------------------------------|
-| exjump   | enhancements | Extended jump height                |
-| lowgrav  | enhancements | Low gravity                         |
-| speed    | enhancements | Speed increase                      |
-| immortal | enhancements | Infinite health                     |
-| air      | enhancements | Give the player air                 |
-| rephand  | enhancements | Repair the item in the players hand |
-| hp       | enhancements | Give the player health (hp)         |
-| pos      |              | Current player posistion            |
+
+| Name     | Privs        | Desc                                | Requirements |
+|:---------|:-------------|:------------------------------------|:-------------|
+| exjump   | enhancements | Extended jump height                |              |
+| lowgrav  | enhancements | Low gravity                         |              |
+| speed    | enhancements | Speed increase                      |              |
+| immortal | enhancements | Infinite health                     |              |
+| air      | enhancements | Give the player air                 |              |
+| feed     | enhancements | Fill the players hunger             | mineclone2   |
+| antidote | enhancements | Stops player being poisoned         | mineclone2   |
+| rephand  | enhancements | Repair the item in the players hand |              |
+| hp       | enhancements | Give the player health (hp)         |              |
+| pos      |              | Current player posistion            |              |
 
 ---
 
