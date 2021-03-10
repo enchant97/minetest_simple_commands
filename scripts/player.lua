@@ -113,7 +113,8 @@ minetest.register_chatcommand("rephand", {
         local item = player:get_wielded_item()
         if (not item:is_empty())
         then
-            item:set_wear(0)
+            item:set_wear(1)
+            player:set_wielded_item(item)
             return true, "Repaired item in hand"
         end
         return true, "No item in hand"
