@@ -84,7 +84,7 @@ minetest.register_chatcommand("air", {
     privs = {
         enhancements = true,
     },
-    func = function(name, state)
+    func = function(name)
         local player = minetest.get_player_by_name(name)
         player:set_breath(65535)
         return true, "Refilled air"
@@ -96,7 +96,7 @@ minetest.register_chatcommand("hp", {
     privs = {
         enhancements = true,
     },
-    func = function(name, state)
+    func = function(name)
         local player = minetest.get_player_by_name(name)
         player:set_hp(65535)
         return true, "Refilled health"
@@ -108,7 +108,7 @@ minetest.register_chatcommand("rephand", {
     privs = {
         enhancements = true,
     },
-    func = function(name, state)
+    func = function(name)
         local player = minetest.get_player_by_name(name)
         local item = player:get_wielded_item()
         if (not item:is_empty())
@@ -123,7 +123,7 @@ minetest.register_chatcommand("rephand", {
 
 minetest.register_chatcommand("pos", {
     description = "Current player posistion",
-    func = function(name, state)
+    func = function(name)
         local player = minetest.get_player_by_name(name)
         local pos = minetest.pos_to_string(player:get_pos(), 0)
         return true, pos
