@@ -37,6 +37,9 @@ if you can implement it.
 | hp       | enhancements | Give the player health (hp)         |              |
 | pos      |              | Current player posistion            |              |
 
+## Config
+You can change the default multipliers for speed, lowgrav and exjump in the minetest settings under `mods > simple_commands`.
+
 ---
 
 ## License

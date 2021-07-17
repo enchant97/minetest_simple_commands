@@ -1,0 +1,6 @@
+# Extended Jump Multiplier
+simple_commands.ex_jump_val (Extended Jump) float 2
+# Player Low Gravity Effect
+simple_commands.low_grav_val (Low Gravity) float 0.3
+# Speed Multiplier
+simple_commands.speed_val (Speed) float 1.8
